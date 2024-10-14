@@ -21,7 +21,7 @@ const ChatInterface = () => {
     return () => clearInterval(intervalId);
   }, []);
 
-  const uri = 'https://2937-34-143-235-52.ngrok-free.app';
+  const uri = 'https://f8e6-35-247-154-77.ngrok-free.app/';
 
   const checkServerStatus = async () => {
     const url = `${uri}/health-check`;
@@ -60,7 +60,7 @@ const ChatInterface = () => {
         const structuredOutput = {
           query: data.query, // Extracts the query from the data
           answer: data.answer, // Extracts the answer from the data
-          question_type: "inference_query", // Static string as specified
+          question_type: data.question_type, // Static string as specified
           evidence_list: data.evidence_list.map(chunk => ({
             title: chunk.title, // Gets the title from each chunk
             author: chunk.author, // Gets the author from each chunk
