@@ -1,5 +1,10 @@
 # RAG Pipeline for Multihop Query Dataset
 
+
+## Frontend 
+
+![Frontend](../ragchatbot/src/assets/1.png)
+
 ## Project Overview
 
 This repository contains a Retrieval-Augmented Generation (RAG) pipeline designed to answer user queries using a multi-hop dataset, where the answers require evidence from multiple documents (2 to 4). The pipeline processes a corpus of documents, retrieves relevant chunks, and returns a structured JSON output similar to `train.json`.
@@ -102,10 +107,18 @@ git clone https://github.com/shubhxtech/Raghackathon.git
 #### 3. Copy the ngrok Link:
 - Once the notebook finishes running, you will see an ngrok link in the last cell of the notebook.
 - Copy the link (it will look something like `https://xxxxxx.ngrok.io`).
+## ngrock 
 
+![Link](../ragchatbot/src/assets/2.png)
 #### 4. Paste the ngrok Link in the Frontend:
 - In the cloned repository, open the `chat.jsx` file located in the `frontend` folder.
 - Replace the placeholder URL in the `chat.jsx` file with the ngrok link you copied from Colab.
+
+
+ ## chat.jsx 
+
+![Link](../ragchatbot/src/assets/3.png)
+#### 4. Paste the ngrok Link in the Frontend:
 
 #### 5. Start the Frontend:
 - Navigate to the `frontend` folder in the terminal and run the following commands to start the frontend:
