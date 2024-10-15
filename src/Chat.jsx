@@ -21,7 +21,7 @@ const ChatInterface = () => {
     return () => clearInterval(intervalId);
   }, []);
 
-  const uri = 'https://f8e6-35-247-154-77.ngrok-free.app/';
+  const uri = 'https://f7ce-35-237-7-196.ngrok-free.app/';   //change the link everytime you re run the last cell in collab
 
   const checkServerStatus = async () => {
     const url = `${uri}/health-check`;
@@ -68,7 +68,7 @@ const ChatInterface = () => {
             source: chunk.source, // Gets the source from each chunk
             category: chunk.category, // Gets the category from each chunk
             published_at: chunk.published_at, // Gets the publication date from each chunk
-            fact: chunk.chunk // Wraps the fact text from each chunk
+            fact: chunk.fact // Wraps the fact text from each chunk
           }))
         };
 
