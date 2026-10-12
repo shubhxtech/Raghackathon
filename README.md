@@ -109,7 +109,7 @@ git clone https://github.com/shubhxtech/Raghackathon.git
 - Copy the link (it will look something like `https://xxxxxx.ngrok.io`).
 ## ngrock 
 
-![Link](../ragchatbot/src/assets/2.png)
+![Link](/src/assets/2.png)
 #### 4. Paste the ngrok Link in the Frontend:
 - In the cloned repository, open the `chat.jsx` file located in the `frontend` folder.
 - Replace the placeholder URL in the `chat.jsx` file with the ngrok link you copied from Colab.
@@ -117,7 +117,7 @@ git clone https://github.com/shubhxtech/Raghackathon.git
 
  ## chat.jsx 
 
-![Link](../ragchatbot/src/assets/3.png)
+![Link](/src/assets/3.png)
 #### 4. Paste the ngrok Link in the Frontend:
 
 #### 5. Start the Frontend:
