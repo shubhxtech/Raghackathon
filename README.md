@@ -3,7 +3,7 @@
 
 ## Frontend 
 
-![Frontend](../ragchatbot/src/assets/1.png)
+![Frontend](/src/assets/1.png)
 
 ## Project Overview
 
